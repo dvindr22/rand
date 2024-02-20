@@ -1,0 +1,103 @@
+/* general styling for the entire page elements */
+body section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#studentId{
+    display: block;
+}
+
+/* positioning the user buttons */
+#userSpace{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+/* positioning of Function buttons */
+#opt{
+    display: flex;
+    flex-direction: row;
+}
+
+/* general guidelines for the buttons */
+.btn{
+    width: 7em;
+    height: 7em;
+    margin: 1.1em;
+    background-color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 12px;
+    border-radius: 60%;
+}
+
+#noun1{
+    
+    background-color: purple;
+}
+
+/* formatting for text */
+#choosenNoun1{
+    width: auto;
+    color: purple;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+#verb{
+    background-color: lightseagreen;
+}
+#choosenVerb{
+    width: auto;
+    color: lightseagreen;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+#adjective{
+    background-color: lightgreen;
+}
+#choosenAdjective{
+    width: auto;
+    color: lightgreen;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+#noun2{
+    background-color: orange;
+}
+#choosenNoun2{
+    width: auto;
+    color: orange;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+#setting{
+    background-color: pink;
+}
+#choosenSetting{
+    width: auto;
+    color: pink;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+#playback{
+    background-color: rgb(162, 16, 16);
+}
+
+#random{
+    background-color: aquamarine;
+}
+
+#reset{
+    background-color: burlywood;
+}

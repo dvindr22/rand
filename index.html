@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Assignment 1 | COMP1073 Client-Side JavaScript</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+	<h1>See-N-Say Storymaker</h1>
+	<p id="studentId"></p>
+	<section id = "userSpace">
+		<!-- Section with all the buttons for the user to build their story -->
+		<h2>Create Your Story</h2>
+		<button id="noun1" class="btn">Noun 1</button>
+		<p id="choosenNoun1"></p>
+		<button id="verb" class="btn">Verb</button>
+		<p id="choosenVerb"></p>
+		<button id="adjective" class="btn">Adjective</button>
+		<p id="choosenAdjective"></p>
+		<button id="noun2" class="btn">Noun 2</button>
+		<p id="choosenNoun2"></p>
+		<button id="setting" class="btn">Setting</button>
+		<p id="choosenSetting"></p>
+	</section>
+	<section id="opt">
+		<!-- Section with playback controls to see or hear the story -->
+		<h2>See Your Story</h2>
+		<button id="playback" class="btn">Show Story</button>
+		<button id="random" class="btn">Random Story</button>
+		<button id="reset" class="btn">Reset Canvas</button>
+		<!-- Empty paragraph to display the story -->
+		<p id="story"></p>
+	</section>
+
+	<!-- linking the custom js file with the index page -->
+	<script src="./js/storymaker.js"></script>
+</body>
+
+</html>
